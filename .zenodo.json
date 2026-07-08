@@ -1,0 +1,33 @@
+{
+  "title": "Analysis and figure code for \"Intuitive peripheral decoding restores hand control after childhood hemispherotomy\"",
+  "description": "<p>Analysis and figure-generation code accompanying the study <em>Intuitive peripheral decoding restores hand control after childhood hemispherotomy</em>. Includes the high-density surface-EMG figure pipelines (Figure 2, Figure 3) and the Figure 2E gesture-classification pipeline (labelling, dataset creation, RMS feature extraction, CatBoost cross-validation and figure rendering).</p><p><strong>Data note:</strong> the EMG recordings were acquired from children who underwent hemispherotomy. To protect this vulnerable participant group, no participant data — neither the raw recordings nor any derived features — are distributed with this software. All data are available from the authors on reasonable request. This archive contains the analysis and figure code only, provided so that the methodology is fully transparent and the results can be reproduced once data access has been granted.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    { "name": "Braun, Dominik I.", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany" },
+    { "name": "Wittermann, Pauline", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany" },
+    { "name": "Weber, Nico G. M.", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Mechanical Engineering, Institute for Factory Automation and Production Systems, Erlangen, Germany" },
+    { "name": "Wartke, Dörte", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany" },
+    { "name": "Güneş, Pınar", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany" },
+    { "name": "Wachter, Felix", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany" },
+    { "name": "Corcosa, Paula", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany" },
+    { "name": "Tan, Lina", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany; Department of Medicine 3 - Rheumatology and Immunology, Erlangen, Germany; Deutsches Zentrum für Immuntherapie (DZI), Erlangen, Germany" },
+    { "name": "Grieshaber-Bouyer Mandelbaum, Henriette", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany" },
+    { "name": "Walter, Jonas", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Mechanical Engineering, Institute for Factory Automation and Production Systems, Erlangen, Germany" },
+    { "name": "Franke, Jörg", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Mechanical Engineering, Institute for Factory Automation and Production Systems, Erlangen, Germany" },
+    { "name": "Knieling, Ferdinand", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany" },
+    { "name": "Del Vecchio, Alessandro", "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany" }
+  ],
+  "keywords": [
+    "electromyography",
+    "EMG",
+    "hemispherotomy",
+    "motor decoding",
+    "myocontrol",
+    "gesture classification",
+    "motor units",
+    "neurorehabilitation"
+  ],
+  "notes": "D. I. Braun and P. Wittermann contributed equally. A. Del Vecchio is the corresponding author. No participant data are distributed; all data are available from the authors on reasonable request (see figure-two/two-e/data/RAW_DATA_ACCESS.md). After the article DOI is known, add it in the Zenodo UI under Related identifiers as 'is supplement to'."
+}

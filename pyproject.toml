@@ -1,0 +1,26 @@
+[project]
+name = "playagain-initial-finding-analysis"
+version = "1.0.0"
+description = "Analysis and figure code for 'Intuitive peripheral decoding restores hand control after childhood hemispherotomy'"
+authors = [{ name = "Dominik I. Braun", email = "dome.braun@fau.de" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11,<3.13"
+# Core dependencies for the analysis and figure code (steps 03-06 and the
+# Figure 2/Figure 3 scripts). All are on PyPI. Note: no participant data are
+# distributed with this repository; the data are available on request.
+dependencies = [
+    "matplotlib>=3.9.2,<4.0",
+    "numpy>=1.24.3,<2.0",
+    "catboost>=1.2,<2.0",
+    "scipy>=1.11,<2.0",
+    "scikit-learn>=1.3,<2.0",
+    "pysynclient>=0.2.0",
+]
+
+# Optional extras for the steps that read the raw recordings from the lab file
+# server (labelling, dataset creation, and the raw-EMG supplementary panels).
+# `pysynclient` is the lab-internal file-server client and is not on public
+# PyPI; these steps additionally require the raw data (available on request).
+[project.optional-dependencies]
+rawdata = ["pysynclient>=0.2.0"]

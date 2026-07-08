@@ -1,0 +1,106 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its results, please cite both the software
+  (this repository) and the associated article listed under
+  "preferred-citation".
+title: >-
+  Analysis and figure code for "Intuitive peripheral decoding restores hand
+  control after childhood hemispherotomy"
+abstract: >-
+  Analysis and figure-generation code accompanying the study "Intuitive
+  peripheral decoding restores hand control after childhood hemispherotomy".
+  Includes the high-density surface-EMG figure pipelines (Figure 2, Figure 3)
+  and the Figure 2E gesture-classification pipeline (labelling, dataset
+  creation, RMS feature extraction, CatBoost cross-validation and figure
+  rendering). To protect the vulnerable pediatric participants, no participant
+  data — neither the raw recordings nor any derived features — are distributed
+  with this software; all data are available from the authors on reasonable
+  request. The code is provided so that the methodology is fully transparent and
+  the results can be reproduced once data access has been granted.
+type: software
+license: MIT
+version: 1.0.0
+# TODO before deposit: set the real release date (YYYY-MM-DD).
+date-released: 2026-01-01
+# TODO after the first Zenodo deposit: paste the Zenodo DOI here so the archive
+# is self-referential (e.g. 10.5281/zenodo.XXXXXXX).
+# doi: 10.5281/zenodo.XXXXXXX
+repository-code: >-
+  https://github.com/<org-or-user>/playagain-initial-finding-analysis
+keywords:
+  - electromyography
+  - EMG
+  - hemispherotomy
+  - motor decoding
+  - myocontrol
+  - gesture classification
+  - motor units
+  - neurorehabilitation
+# Affiliations (superscripts in the manuscript):
+#   1 = FAU, Dept. of Artificial Intelligence in Biomedical Engineering,
+#       Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany
+#   2 = FAU, Dept. of Mechanical Engineering, Institute for Factory Automation
+#       and Production Systems, Erlangen, Germany
+#   3 = FAU, Dept. of Pediatrics and Adolescent Medicine, Pediatric Experimental
+#       and Translational Imaging Laboratory, Erlangen, Germany
+#   4 = FAU, Dept. of Medicine 3 - Rheumatology and Immunology, Erlangen, Germany
+#   5 = FAU, Deutsches Zentrum für Immuntherapie (DZI), Erlangen, Germany
+# CITATION.cff allows one affiliation string per author; multi-affiliated
+# authors list them joined by "; ".
+authors: &authors
+  - given-names: Dominik I.
+    family-names: Braun
+    email: dome.braun@fau.de
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany"
+  - given-names: Pauline
+    family-names: Wittermann
+    email: pauline.wittermann@fau.de
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany"
+  - given-names: Nico G. M.
+    family-names: Weber
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Mechanical Engineering, Institute for Factory Automation and Production Systems, Erlangen, Germany"
+  - given-names: Dörte
+    family-names: Wartke
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany"
+  - given-names: Pınar
+    family-names: Güneş
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany"
+  - given-names: Felix
+    family-names: Wachter
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany"
+  - given-names: Paula
+    family-names: Corcosa
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany"
+  - given-names: Lina
+    family-names: Tan
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany; Department of Medicine 3 - Rheumatology and Immunology, Erlangen, Germany; Deutsches Zentrum für Immuntherapie (DZI), Erlangen, Germany"
+  - given-names: Henriette
+    family-names: Grieshaber-Bouyer Mandelbaum
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany"
+  - given-names: Jonas
+    family-names: Walter
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Mechanical Engineering, Institute for Factory Automation and Production Systems, Erlangen, Germany"
+  - given-names: Jörg
+    family-names: Franke
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Mechanical Engineering, Institute for Factory Automation and Production Systems, Erlangen, Germany"
+  - given-names: Ferdinand
+    family-names: Knieling
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Pediatrics and Adolescent Medicine, Pediatric Experimental and Translational Imaging Laboratory, Erlangen, Germany"
+  - given-names: Alessandro
+    family-names: Del Vecchio
+    email: alessandro.del.vecchio@fau.de
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Artificial Intelligence in Biomedical Engineering, Professur für Neurophysiology and Neural Interfacing, Erlangen, Germany"
+preferred-citation:
+  type: article
+  title: >-
+    Intuitive peripheral decoding restores hand control after childhood
+    hemispherotomy
+  authors: *authors
+  # TODO once accepted/published: add the target journal, volume, issue, pages
+  # and the article DOI.
+  # journal: <journal to be confirmed>
+  year: 2026
+  # doi: 10.XXXX/XXXXXX
+  notes: >-
+    D. I. Braun and P. Wittermann contributed equally. A. Del Vecchio is the
+    corresponding author.
