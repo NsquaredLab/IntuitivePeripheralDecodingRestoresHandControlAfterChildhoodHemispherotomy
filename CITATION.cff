@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: >-
-  If you use this software or its results, please cite both the software
+  If you use this code, please cite both the code
   (this repository) and the associated article listed under
   "preferred-citation".
 title: >-
@@ -20,13 +20,12 @@ abstract: >-
 type: software
 license: MIT
 version: 1.0.0
-# TODO before deposit: set the real release date (YYYY-MM-DD).
-date-released: 2026-01-01
+date-released: 2026-07-08
 # TODO after the first Zenodo deposit: paste the Zenodo DOI here so the archive
 # is self-referential (e.g. 10.5281/zenodo.XXXXXXX).
 # doi: 10.5281/zenodo.XXXXXXX
 repository-code: >-
-  https://github.com/<org-or-user>/playagain-initial-finding-analysis
+  https://github.com/NsquaredLab/IntuitivePeripheralDecodingRestoresHandControlAfterChildhoodHemispherotomy/
 keywords:
   - electromyography
   - EMG
