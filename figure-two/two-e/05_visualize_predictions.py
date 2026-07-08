@@ -19,8 +19,7 @@ per participant; those are intentionally omitted in this two-e variant.)
 
 Like step 4, this runs on the RMS features produced by step 3 and reproduces the
 published Figure 2E confusion-matrix panels. The features are not distributed
-with this repository; they are available from the authors on reasonable request
-(see ``data/RAW_DATA_ACCESS.md``).
+with this repository; they are available from the authors on reasonable request.
 
 Input / Output
 --------------

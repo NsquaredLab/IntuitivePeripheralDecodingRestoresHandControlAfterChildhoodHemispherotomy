@@ -21,7 +21,7 @@ Input / Output
 Neither the raw ``data/<P>.npz`` nor the RMS features this step produces are
 distributed with this repository, because they derive from identifiable human
 EMG of a vulnerable participant group; all data are available from the authors
-on reasonable request (see ``data/RAW_DATA_ACCESS.md``).
+on reasonable request.
 
 Dependencies
 ------------

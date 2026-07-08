@@ -52,7 +52,7 @@ def require_raw_signal(path: str) -> str:
     recordings (the ``.pkl`` + ``labels.json`` and the ``data/<P>.npz``
     datasets) nor the derived RMS features — because they come from
     identifiable EMG of a vulnerable participant group. All data are available
-    from the authors on reasonable request (see ``data/RAW_DATA_ACCESS.md``).
+    from the authors on reasonable request.
     Steps that need such an input call this first so a missing file yields an
     explanatory message instead of a bare traceback.
     """
@@ -63,7 +63,7 @@ def require_raw_signal(path: str) -> str:
             "recordings, the labelled datasets (data/<P>.npz) and the RMS "
             "features (data/<P>_rms_features.npz) all derive from identifiable "
             "EMG of a vulnerable participant group. Request the data from the "
-            "authors — see data/RAW_DATA_ACCESS.md — then place it in the "
+            "authors, then place it in the "
             "data/ folder and re-run this step."
         )
     return path

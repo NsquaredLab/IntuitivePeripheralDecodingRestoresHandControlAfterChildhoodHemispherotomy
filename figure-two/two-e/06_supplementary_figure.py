@@ -31,8 +31,7 @@ Input / Output
 This figure needs the participant data (panels A and B draw the raw EMG traces;
 panels C and D use the RMS features), which is not distributed with this
 repository because it derives from identifiable human EMG of a vulnerable
-participant group. All data are available from the authors on reasonable request
-(see ``data/RAW_DATA_ACCESS.md``).
+participant group. All data are available from the authors on reasonable request.
 
 Dependencies
 ------------

@@ -12,8 +12,7 @@ at the 32 Hz frame rate.
 This step runs on the RMS features produced by step 3 and reproduces the
 published Figure 2E cross-validation scores. The features are not distributed
 with this repository (they derive from identifiable-participant data); they are
-available from the authors on reasonable request (see
-``data/RAW_DATA_ACCESS.md``).
+available from the authors on reasonable request.
 
 Input / Output
 --------------

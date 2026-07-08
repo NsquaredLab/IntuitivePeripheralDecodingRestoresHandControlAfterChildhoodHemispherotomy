@@ -24,7 +24,7 @@ Input / Output
 
 The raw recordings are not distributed with this repository because they
 contain identifiable human EMG; they are available from the authors on
-reasonable request (see ``data/RAW_DATA_ACCESS.md``). This step therefore only
+reasonable request. This step therefore only
 runs with access to the raw data.
 
 Dependencies

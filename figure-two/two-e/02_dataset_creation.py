@@ -21,7 +21,7 @@ Input / Output
 
 The raw recordings and the resulting ``data/<P>.npz`` contain identifiable
 human EMG and are not distributed with this repository; they are available from
-the authors on reasonable request (see ``data/RAW_DATA_ACCESS.md``). This step
+the authors on reasonable request. This step
 therefore only runs with access to the raw data.
 
 Dependencies
