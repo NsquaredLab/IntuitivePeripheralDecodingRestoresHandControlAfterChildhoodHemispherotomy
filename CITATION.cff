@@ -21,9 +21,7 @@ type: software
 license: MIT
 version: 1.0.0
 date-released: 2026-07-08
-# TODO after the first Zenodo deposit: paste the Zenodo DOI here so the archive
-# is self-referential (e.g. 10.5281/zenodo.XXXXXXX).
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.21269465
 repository-code: >-
   https://github.com/NsquaredLab/IntuitivePeripheralDecodingRestoresHandControlAfterChildhoodHemispherotomy/
 keywords:

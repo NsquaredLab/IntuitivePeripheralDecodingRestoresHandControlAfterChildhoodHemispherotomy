@@ -1,6 +1,7 @@
 # Intuitive peripheral decoding restores hand control after childhood hemispherotomy — analysis & figure code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21269465.svg)](https://doi.org/10.5281/zenodo.21269465)
 
 Analysis and figure-generation code accompanying the study:
 
@@ -8,7 +9,9 @@ Analysis and figure-generation code accompanying the study:
 >
 > Dominik I. Braun<sup>1†</sup>, Pauline Wittermann<sup>1†</sup>, Nico G. M. Weber<sup>2</sup>, Dörte Wartke<sup>1</sup>, Pınar Güneş<sup>1</sup>, Felix Wachter<sup>3</sup>, Paula Corcosa<sup>3</sup>, Lina Tan<sup>3,4,5</sup>, Henriette Grieshaber-Bouyer Mandelbaum<sup>3</sup>, Jonas Walter<sup>2</sup>, Jörg Franke<sup>2</sup>, Ferdinand Knieling<sup>3</sup>, and Alessandro Del Vecchio<sup>1\*</sup>
 >
-> Manuscript under review (2026). DOI to be added on publication.
+> Manuscript under review (2026). Article DOI to be added on publication.
+>
+> Analysis & figure code archived on Zenodo: [10.5281/zenodo.21269465](https://doi.org/10.5281/zenodo.21269465).
 >
 > † These authors contributed equally. \* Corresponding author: <alessandro.del.vecchio@fau.de>
 >
@@ -134,7 +137,17 @@ uv run python figure-two/two-e/05_visualize_predictions.py
 
 If you use this software, please cite both the article and
 this software archive. Citation metadata is provided in
-[`CITATION.cff`](./CITATION.cff). Once the Zenodo archive is minted, cite it by its DOI.
+[`CITATION.cff`](./CITATION.cff).
+
+The software archive is deposited on Zenodo and can be cited by its DOI:
+
+> Braun, D. I., Wittermann, P., Weber, N. G. M., Wartke, D., Güneş, P., Wachter, F.,
+> Corcosa, P., Tan, L., Grieshaber-Bouyer Mandelbaum, H., Walter, J., Franke, J.,
+> Knieling, F., & Del Vecchio, A. (2026). *Analysis and figure code for "Intuitive
+> peripheral decoding restores hand control after childhood hemispherotomy"*.
+> Zenodo. https://doi.org/10.5281/zenodo.21269465
+
+DOI: [10.5281/zenodo.21269465](https://doi.org/10.5281/zenodo.21269465)
 
 ---
 
